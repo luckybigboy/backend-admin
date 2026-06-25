@@ -1,6 +1,12 @@
 import { createApp } from "vue";
 import "./style.css";
-import "virtual:uno.css";
+
+// 引入unocss 样式
+import "@/plugins/unocss.css";
+
+// 引入animate.css
+import "@/plugins/animate.css";
+
 import App from "./App.vue";
 import ElementPlus from "element-plus";
 
